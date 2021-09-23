@@ -21,4 +21,14 @@ function subscribe(el: HTMLElement): Subscription {
   }
 }
 
-export {subscribe, installLink, uninstallLink}
+export {
+  subscribe,
+  installImageLink,
+  installLink,
+  installTable,
+  installText,
+  uninstallImageLink,
+  uninstallTable,
+  uninstallLink,
+  uninstallText
+}
